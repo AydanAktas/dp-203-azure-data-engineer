@@ -10,7 +10,7 @@ This exercise should take approximately **30** minutes to complete.
 
 ### View files in the data lake
 
-1. Log into https://portal.azure.com/ by using the credendantials which are provided by your instructor.
+1. Log into https://portal.azure.com/ by using the credentials which are provided by your instructor.
 2. In the Azure portal, go to the **dp203-o8dz6cm** resource group, and select your Synapse workspace.
 3. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
 4. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.

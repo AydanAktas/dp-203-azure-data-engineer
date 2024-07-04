@@ -135,7 +135,7 @@ By defining an external data source in a database, you can use it to reference t
     | AWC Logo Cap | 1063 | 8791.86 |
     | ... | ... | ... |
 
-4. Modify the SQL code to save the results of query in an external table (replacing {your_group_name}:
+4. Modify the SQL code to save the results of query in an external table (don't forget to replace *{your_group_name}*):
 
     ```sql
     CREATE EXTERNAL TABLE ProductSalesTotals

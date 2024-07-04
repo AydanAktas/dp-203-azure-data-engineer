@@ -100,7 +100,7 @@ By defining an external data source in a database, you can use it to reference t
     GO;
     ```
 
-3. Modify the script properties to change its name to **Create Sales DB**, and publish it.
+3. Modify the script properties to change its name to **Create Sales DB**, and commit it.
 4. Ensure that the script is connected to the **Built-in** SQL pool and the **master** database, and then run it.
 5. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is now displayed. Expand this list to verify that the **Sales_{your_group_name}** database has been created.
 6. Expand the **Sales_{your_group_name}** database, its **External Resources** folder, and the **External data sources** folder under that to see the **sales_data** external data source you created.

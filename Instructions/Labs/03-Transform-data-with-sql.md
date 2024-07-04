@@ -10,8 +10,9 @@ This exercise should take approximately **30** minutes to complete.
 
 ### View files in the data lake
 
-1. In the Azure portal, go to the **dp203-o8dz6cm** resource group, and select your Synapse workspace.
-2. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
+1. Log into https://portal.azure.com/ by using the credendantials which are provided by your instructor.
+2. In the Azure portal, go to the **dp203-o8dz6cm** resource group, and select your Synapse workspace.
+3. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
 4. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
 5. Click on the **Data** tab. It will ask you to set your working branch. Create a new branch for your group.
 6. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, named **datalakeo8dz6cm**.

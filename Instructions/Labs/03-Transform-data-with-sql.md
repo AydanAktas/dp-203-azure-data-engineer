@@ -82,7 +82,7 @@ By defining an external data source in a database, you can use it to reference t
       COLLATE Latin1_General_100_BIN2_UTF8;
     GO;
     
-    Use Sales;
+    Use Sales_{your_group_name};
     GO;
     
     -- External data is in the Files container in the data lake

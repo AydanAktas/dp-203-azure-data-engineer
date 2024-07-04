@@ -12,14 +12,14 @@ This exercise should take approximately **30** minutes to complete.
 
 1. In the Azure portal, go to the **dp203-o8dz6cm** resource group, and select your Synapse workspace.
 2. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
-3. Create a new branch.
 4. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
-5. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, named **datalakeo8dz6cm**.
-6. Expand your storage account and verify that it contains a file system container named **files**.
-7. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
-8. Open the **sales** folder and the **csv** folder it contains, and observe that this folder contains .csv files for three years of sales data.
-9. Right-click any of the files and select **Preview** to see the data it contains. Note that the files contain a header row.
-10. Close the preview, and then use the **&#8593;** button to navigate back to the **sales** folder.
+5. Click on the **Data** tab. It will ask you to set your working branch. Create a new branch for your group.
+6. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, named **datalakeo8dz6cm**.
+7. Expand your storage account and verify that it contains a file system container named **files**.
+8. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
+9. Open the **sales** folder and the **csv** folder it contains, and observe that this folder contains .csv files for three years of sales data.
+10. Right-click any of the files and select **Preview** to see the data it contains. Note that the files contain a header row.
+11. Close the preview, and then use the **&#8593;** button to navigate back to the **sales** folder.
 
 ### Use SQL to query CSV files
 

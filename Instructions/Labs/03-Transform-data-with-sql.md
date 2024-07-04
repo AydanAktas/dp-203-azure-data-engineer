@@ -171,7 +171,7 @@ By defining an external data source in a database, you can use it to reference t
 If you will need to transform data frequently, you can use a stored procedure to encapsulate a CETAS statement.
 
 1. In Synapse Studio, on the **Develop** page, in the **+** menu, select **SQL script**.
-2. In the new script pane, add the following code to create a stored procedure in the **Sales_{your_group_name}** database that aggregates sales by year and saves the results in an external table (don't forget to replace both *{your_group_name}*s in the script):
+2. In the new script pane, add the following code to create a stored procedure in the **Sales_{your_group_name}** database that aggregates sales by year and saves the results in an external table (don't forget to replace both *{your_group_name}s* in the script):
 
     ```sql
     USE Sales_{your_group_name};
